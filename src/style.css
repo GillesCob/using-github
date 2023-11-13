@@ -1,6 +1,5 @@
 body {
     font-size: 16px;
-
 }
 
 h1 {
@@ -53,6 +52,12 @@ a:hover{
 }
 
 #modification_code{
+    margin-bottom: 70px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#utilisation_avancée{
     margin-bottom: 70px;
     padding: 10px;
     background-color: bisque;

@@ -6,12 +6,16 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="icon" href="https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png" type="image/x-icon">
+
     <title>GitHub Introduction</title>
 </head>
+
 <body>
-    <h1>Initialisation du projet</h1>
 
     <div id="initialisation_projet">
+        <h1>Initialisation du projet</h1>
+
         <div class="ytb_link">
             <a href="https://youtu.be/dX8396ZmSPk?si=t6uoQO7rqsV1BEfo&t=24778", target="_blank">Lien vers le cours en ligne</a>
         </div>
@@ -25,9 +29,9 @@
 
                 <div class="step_list">
                     <ul>
-                        <li><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=25152", target="_blank">Create Git repositery</a></li>
-                        <li><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=25597", target="_blank">Create Codespaces</a></li>
-                        <li><a href="https://youtu.be/dX8396ZmSPk?feature=shared", target="_blank">Install Live Server</a></li>
+                        <li><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=25153", target="_blank">Create Git repositery</a></li>
+                        <li><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=25599", target="_blank">Create Codespaces</a></li>
+                        <li><a href="https://youtu.be/dX8396ZmSPk?si=JFQXi3rLxzRpIvJ5&t=25980", target="_blank">Install Live Server</a></li>
                     </ul>
                 </div>
             </div>
@@ -96,7 +100,7 @@
         <div class="step">
             <div class="step_text">
                 <div class="step_title">
-                    Etape 4 : Créer une branche (si travail à plusieurs)
+                    Etape 4 : GitHub workflow
                 </div>
                 <div class="step_list">
                     <ul>
@@ -110,16 +114,30 @@
                             Permet d'être à plusieurs pour modifier le code
                         </li>
                     </ul>
+                    <ol>
+                        <li>
+                            <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=28207" target="_blank">Je créé une branche </a>
+                        </li>
+                        <li>
+                            Je fais mes modifs puis je les commit
+                        </li>
+                        <li>
+                            Je créé un pull request avec le détail de toutes mes modifs
+                        </li>
+                        <li>
+                            Ce code est vérifié par le N+1, commenté et à moi d'apporter les modifs
+                        </li>
+                        <li>
+                            Une fois validées, mes modifs sont ajoutées au main
+                        </li>
+                    </ol>
                 </div>
             </div>
 
             <div class="step_image">
-                <img src="images/branch.png" alt="image vercel" id="step_image">
+                <img src="images/github_workflow.png" alt="image vercel" id="step_image">
             </div>
         </div>
-        <p> 
-            Pour le moment je ne vais pas plus rentrer dans le détail
-        </p>
     </div>
 
     <div id="modification_code">
@@ -147,7 +165,7 @@
             </div>
 
             <div class="step_image">
-                <img src="images/image1.png" alt="image étape" id="step_image">
+                <img src="images/open_github_desktop.png" alt="image étape" id="step_image">
             </div>
         </div>
 
@@ -159,28 +177,19 @@
                 </div>
                 <div class="step_list">
                     <ul>
-                        <li>Regrouper les modifs en paquets et réaliser régulièrement des "Commit"</li>
-                        <li>Réaliser des commit séparés pour chaque fichier afin de facilement s'y retrouver</li>
-                    </ul>
-                </div>
-            </div>
+                        <li>
+                            structurer ses modifications par div
+                        </li>
+                        <li>
+                            [git add "nom fichier qui contient les modifs"]
+                        </li>
+                        <li>
+                            [git commit -m "description des modifs"]
+                        </li>
+                        <li>
+                            recommencer au fil des modifs et des fichiers
+                        </li>
 
-            <div class="step_image">
-                <img src="images/image1.png" alt="image étape" id="step_image">
-            </div>
-        </div>
-
-
-        <div class="step">
-            <div class="step_text">
-                <div class="step_title">
-                    Etape 2 bis : Tracker les modifications
-                </div>
-                <div class="step_list">
-                    <ul>
-                        <li>git add src/nom_fichier</li>
-                        <li>git commit -m "titre concernant ces modifs</li>
-                        <li>réitérer autant que nécessaire ces étapes</li>
                     </ul>
                 </div>
             </div>
@@ -199,9 +208,9 @@
 
                 <div class="step_list">
                     <ul>
-                        <li>Pour savoir où on en est : git status</li>
-                        <li>Possibilité de vérifier les logs : git log</li>
-                        <li>Si on veut plus de détails : git log --stat</li>
+                        <li>Pour savoir où on en est : [git status]</li>
+                        <li>Possibilité de vérifier les logs : [git log]</li>
+                        <li>Si on veut plus de détails : [git log --stat]</li>
                     </ul>
                 </div>
             </div>
@@ -220,7 +229,7 @@
 
                 <div class="step_list">
                     <ul>
-                        <li>git push origin main</li>
+                        <li>[git push origin main]</li>
                     </ul>
                 </div>
             </div>
@@ -231,9 +240,47 @@
         </div>
     </div>
 
-    <div class="footer">
-        coucou
+    <div id="utilisation_avancée">
+        <h1>Utilisation avancée</h1>
+        <p>
+            Voici quelques éléments en cas de fonctionnement en équipe : 
+        </p>
 
+        <div class="step">
+            <div class="step_text">
+                <div class="step_title">
+                    Etape 1 : Importer les MAJ du main
+                </div>
+                <div class="step_list">
+                    <ul>
+                        <li>
+                            C'est le cas si d'autres dev ont eu leurs MAJ incoirporés au main : <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=29572", target="_blank">[git checkout main]</a>
+                        </li>
+                        <li>
+                            On récupère ces MAJ : [git pull]
+                        </li>
+                        <li>
+                            On vérifie les MAJ présentes dans notre code : [git checkout "nom_branch"]
+                        </li>
+                        <li>
+                            On intègre les MAJ du main dans notre code : [git merge main]
+                        </li>
+                        <li>
+                            On pousse nos changements : [git push]
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="step_image">
+                <img src="images/branch.png" alt="image étape" id="step_image">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        FOOTER
     </div>
 
 </body>
