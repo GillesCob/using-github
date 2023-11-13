@@ -24,10 +24,11 @@ h1 {
 .step_image{
     background-color: aquamarine;
     text-align: center;
+    width: 50%;
 }
 
 #step_image{
-    width: 50%;
+    width: 100%;
 }
 
 .ytb_link{
