@@ -1,0 +1,44 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.step{
+    background-color: aqua;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.step_text{
+    width: 50%;
+}
+
+.step_title{
+    font-weight: 800;
+}
+
+.step_image{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#step_image{
+    width: 50%;
+}
+
+.ytb_link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+}
