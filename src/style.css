@@ -1,5 +1,6 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
+    background-color: antiquewhite;
 }
 
 h1 {
@@ -8,10 +9,10 @@ h1 {
 }
 
 .step{
-    background-color: aqua;
     margin-top: 40px;
     padding: 10px;
     display: flex;
+    background-color: white;
 }
 
 .step_text{
@@ -23,7 +24,6 @@ h1 {
 }
 
 .step_image{
-    background-color: aquamarine;
     text-align: center;
     width: 50%;
 }
@@ -48,19 +48,19 @@ a:hover{
 #initialisation_projet{
     margin-bottom: 70px;
     padding: 10px;
-    background-color: bisque;
+    border: solid black;
 }
 
 #modification_code{
     margin-bottom: 70px;
     padding: 10px;
-    background-color: bisque;
+    border: solid black;
 }
 
 #utilisation_avancée{
     margin-bottom: 70px;
     padding: 10px;
-    background-color: bisque;
+    border: solid black;
 }
 
 
