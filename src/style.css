@@ -1,9 +1,11 @@
 body {
     font-size: 16px;
+
 }
 
 h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .step{
@@ -42,4 +44,24 @@ a{
 
 a:hover{
     color: brown;
+}
+
+#initialisation_projet{
+    margin-bottom: 70px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#modification_code{
+    margin-bottom: 70px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
 }
